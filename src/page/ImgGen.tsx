@@ -165,7 +165,9 @@ export function ImgGen() {
           </label>
         </div>
         
-        
+        <div className="text-white pt-3">
+            Download to preview your template
+        </div>
         <button 
           onClick={downloadImage} 
           className={`text-white px-4 py-2 rounded-md ${disable?"bg-green-700 cursor-not-allowed":"bg-green-500 hover:bg-green-600"} `}
